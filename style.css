@@ -83,14 +83,13 @@ body {
     margin: 6.5rem 0rem 0rem 0rem;
     text-align: center;
     font-family: Papyrus;
-    background-image: url('https://img.freepik.com/premium-photo/main-course-with-beef-steak-realistic-3d-product-showcase-food-photography_111797-1825.jpg');
+    background-image: url('https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347425/india-food-dal-tadka/india-food-dal-tadka-1120x732.jpg');
     background-size: cover;
-    background-attachment: fixed;
     height: 90vh;
 }
 
 #section1_title {
-    color: gray;
+    color: black;
     padding: 5rem 0rem 0rem 0rem;
 }
 
@@ -122,7 +121,6 @@ body {
     font-size: 3rem;
     padding: 2rem 0rem 0rem 0rem;
     margin: 0rem;
-    animation: glow 2s ease-in-out infinite;
 }
 
 #quote2_body {
@@ -202,7 +200,7 @@ body {
     column-gap: 2rem;
     row-gap: 5rem;
     padding: 10rem 2rem 10rem 2rem;
-    background-image: url('https://images-na.ssl-images-amazon.com/images/I/81TMUS7aJ-L._AC_SL1500_.jpg');
+    background-image: url('');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -268,7 +266,6 @@ body {
     background-image: url('https://wallpapercave.com/wp/wp2864012.gif');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 #section2_title {
@@ -340,21 +337,73 @@ body {
     border: 1px dotted rgb(255, 31, 124);
     border-radius: 7px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-shadow: 0px 10px 10px #FC5185,
-        0px 10px 10px black;
     cursor: pointer;
     margin-top: 2rem;
 }
 
 #section2_button:hover {
     border: 1px dotted white;
-    box-shadow: 5px 0px 10px #FC5185,
-        0px 0px 10px black;
     transition: all 0.7s ease-in-out;
     scale: 1.1;
-    background-color: rgb(255, 31, 124);
-    color: white;
+    color: rgb(255, 31, 124);
 }
+
+#section3 {
+    text-align: center;
+    padding: 2rem 1rem 3rem 2rem;
+    font-family: Papyrus;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(17, 17, 18); */
+    background-image: url('Resources/section3_background3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #E5E1DA;
+}
+.message1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+#border_bottom1 {
+    width: 20rem;    
+}
+
+#my_photo {
+    width: 5rem;
+    border-radius: 50%;
+}
+#my_name {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px;
+    font-size: 0.7rem;
+}
+
+#section3_block2 {
+    background-color: black;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -465,6 +514,9 @@ body {
         padding: 0.3rem 2rem;
         border-radius: 7px;
     }
+    #section3 {
+        padding: 2rem 1rem 1rem 2rem;
+    }
 }
 
 @media (max-width: 910px) {
@@ -530,6 +582,10 @@ body {
     .content_title {
         font-size: 1rem;
     }
+
+    #section3 {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 600px) {
@@ -581,6 +637,10 @@ body {
 
     #title_body {
         font-size: 2rem;
+    }
+
+    #border_bottom1 {
+        width: 90%;
     }
 }
 
