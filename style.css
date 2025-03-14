@@ -83,13 +83,13 @@ body {
     margin: 6.5rem 0rem 0rem 0rem;
     text-align: center;
     font-family: Papyrus;
-    background-image: url('https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347425/india-food-dal-tadka/india-food-dal-tadka-1120x732.jpg');
+    background-image: url('https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661887113/indian-food/indian-food-1120x732.jpg');
     background-size: cover;
     height: 90vh;
 }
 
 #section1_title {
-    color: black;
+    color: #FC5185;
     padding: 5rem 0rem 0rem 0rem;
 }
 
