@@ -1,0 +1,806 @@
+body {
+    background: linear-gradient(to right, #ffd3e0, #ffedef, #ffffff);
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+
+#logo {
+    width: 6rem;
+    border-radius: 50%;
+}
+
+#div_logo {
+    display: inline-block;
+}
+
+#span {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0.rem;
+}
+
+#title {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #313131;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0rem;
+}
+
+#title b {
+    color: #FC5185;
+}
+
+#quote {
+    display: inline-block;
+    font-size: 0.5rem;
+    background: linear-gradient(to right, red, blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin: 0rem;
+}
+
+#quote1 {
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+}
+
+#navigation {
+    display: flex;
+    float: right;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+#anchor {
+    text-decoration: none;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 4rem 1rem 1rem 1rem;
+}
+
+#anchor:hover {
+    border-bottom: 4px double #FC5185;
+    margin-top: 3rem;
+    transition: all 0.7s ease-in-out;
+}
+
+#menu {
+    display: none;
+}
+
+
+/* Body */
+
+
+#section1 {
+    margin: 6.5rem 0rem 0rem 0rem;
+    text-align: center;
+    font-family: Papyrus;
+    background-image: url('https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661887113/indian-food/indian-food-1120x732.jpg');
+    background-size: cover;
+    height: 90vh;
+}
+
+#section1_title {
+    color: #FC5185;
+    padding: 5rem 0rem 0rem 0rem;
+}
+
+#container_body,
+#container_body2 {
+    text-align: center;
+    padding: 5rem 0 0 0;
+}
+
+#container_body2 {
+    margin: 6.5rem 0 0 0;
+    padding: 2rem 0 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#quote_body {
+    font-family: Brush Script MT;
+    color: #FC5185;
+}
+
+#border_bottom {
+    width: 10rem;
+}
+
+#title_body {
+    font-family: Papyrus;
+    font-size: 3rem;
+    padding: 2rem 0rem 0rem 0rem;
+    margin: 0rem;
+}
+
+#quote2_body {
+    font-size: 0.7rem;
+    margin-top: 0;
+    color: #AD8B73;
+    font-weight: bold;
+}
+
+#quote3_body {
+    font-family: Brush Script MT;
+    color: #FC5185;
+}
+
+#block1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+    row-gap: 2rem;
+    margin: 0rem;
+}
+
+#item_image {
+    width: 15rem;
+    border-top: 5px solid rgb(255, 31, 124);
+    border-right: 5px solid rgb(255, 31, 124);
+    border-radius: 60px 10px 60px 10px;
+    box-shadow: -5px 5px 10px rgb(255, 31, 124);
+}
+
+#item_image:hover {
+    border-radius: 60px 10px 60px 10px;
+    box-shadow: 5px -5px 10px white;
+    cursor: pointer;
+    scale: 0.9;
+    transition: all 1s ease-in-out;
+}
+
+#quote3 {
+    font-weight: 400;
+    font-family: Papyrus;
+    color: gray;
+}
+
+#quote4 {
+    margin: 0rem 0rem 6rem 0rem;
+}
+
+.name {
+    color: gray;
+    font-family: Papyrus;
+    font-weight: 100;
+}
+
+.view_menu {
+    color: rgb(255, 31, 124);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
+.view_menu:hover {
+    cursor: pointer;
+    border-bottom: 5px double gray;
+    transition: all 0.5s ease-in-out;
+}
+
+#container_body3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    column-gap: 2rem;
+    row-gap: 5rem;
+    padding: 10rem 2rem 10rem 2rem;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.block2_1 {
+    width: 50%;
+}
+
+#block2_headline {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 2.5rem;
+    color: black;
+}
+
+#block2_quoteline {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 31, 124);
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+#block2_button {
+    background-color: transparent;
+    padding: 0.7rem 2rem;
+    border: 4px double rgb(255, 31, 124);
+    border-radius: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0px 10px 10px #FC5185,
+        0px 10px 10px black;
+    cursor: pointer;
+    margin-top: 4rem;
+}
+
+#block2_button:hover {
+    border: 4px double white;
+    box-shadow: 5px 0px 10px #FC5185,
+        0px 0px 10px black;
+    transition: all 0.7s ease-in-out;
+    scale: 1.1;
+    background-color: rgb(255, 31, 124);
+    color: white;
+}
+
+#flavor_image {
+    width: 35rem;
+    border-radius: 40px 0px 40px 0px;
+    box-shadow: -10px 10px 20px rgb(0, 247, 255),
+        10px -10px 20px #FC5185;
+    animation: flash-color 2s infinite alternate;
+}
+
+#flavor_image:hover {
+    cursor: pointer;
+}
+
+#section2 {
+    padding: 0rem 1rem 2rem 1rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section2_title {
+    font-family: Papyrus;
+    font-size: 2.5rem;
+    color: gray;
+}
+
+#section2_quote {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.scroll-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 2rem;
+}
+
+.content {
+    display: inline-block;
+    margin: 1rem;
+}
+
+
+
+.content_title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.block3 {
+    display: felx;
+    border-right: 1px solid gray;
+    padding-right: 2rem;
+}
+
+.straters {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.straters_image {
+    width: 8rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+    box-shadow: 3px -3px 2px white;
+    cursor: pointer;
+}
+
+.straters_name {
+    box-shadow: 3px 3px 1px rgb(255, 31, 124);
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+#section2_button {
+    background-color: rgb(25, 25, 28);
+    color: white;
+    padding: 0.7rem 2rem;
+    border: 1px dotted white;
+    border-radius: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+#section2_button:hover {
+    border: 1px dotted white;
+    transition: all 0.7s ease-in-out;
+    scale: 1.1;
+    color: rgb(255, 31, 124);
+}
+
+#section3 {
+    text-align: center;
+    padding: 2rem 1rem 3rem 2rem;
+    font-family: Papyrus;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(17, 17, 18); */
+    background-image: url('Resources/section3_background3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #E5E1DA;
+}
+
+.message1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+#border_bottom1 {
+    width: 20rem;
+}
+
+#my_photo {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+#my_name {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px;
+    font-size: 0.7rem;
+}
+
+#section3_block2 {
+    background-color: black;
+    display: flex;
+}
+
+#section3_block1_1 {
+    padding: 5rem 0rem 5rem 0rem;
+    margin-top: 5rem;
+    text-align: center;
+    font-family: Gabriola;
+    text-shadow: 4px 4px 4px #aaa;
+    background-color: rgb(34, 34, 35);
+}
+
+#section3_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    margin-top: 2rem;
+}
+
+.section3_container1 {
+    width: 15rem;
+    background-color: rgb(18, 18, 19);
+    border: 1px solid #aaa;
+}
+
+#section4_title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    text-shadow: none;
+    color: #FC5185;
+}
+
+.strengths_images {
+    width: 5rem;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.strengths_quote {
+    font-size: 1rem;
+    text-shadow: none;
+}
+
+.section3_container1:hover .strengths_images {
+    transform: rotate(360deg);
+}
+
+.section3_container1:hover {
+    background-color: black;
+    border: none;
+}
+
+#original {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5rem;
+    row-gap: 2rem;
+    padding: 5rem;
+    background-image: url('https://wallpapercave.com/wp/wp2864012.gif');
+}
+
+#section4_block1,
+#section4_block3 {
+    text-align: center;
+}
+
+#section4_block2 {
+    padding: 7rem 7rem;
+    color: gray;   
+    border-radius: 0px 20px;
+}
+
+#duplicated {
+    display: none;
+}
+
+#section4 #section4_block1 a,
+#section4_block3 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+#logo1 {
+    width: 4rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+#span1 {
+    display: block;
+}
+
+#title1 {
+    display: inline;
+    font-weight: 600;
+}
+
+#title1 b {
+    color: #FC5185;
+}
+
+#quote {
+    display: block;
+}
+
+#offers {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.common {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+}
+
+#input {
+    background-color: white;
+    padding: 0.5rem;
+}
+#subscribe {
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.light-container {
+    position: relative;
+}
+
+.flashing-image {
+    width: 300px;
+    /* Adjust size as needed */
+    height: auto;
+    animation: flash-color 2s infinite alternate, flash-light 1.5s infinite alternate;
+}
+
+@keyframes flash-light {
+
+    0%,
+    100% {
+        filter: brightness(1);
+        box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+    }
+
+    50% {
+        filter: brightness(1.5);
+        box-shadow: 0 0 30px 15px rgba(255, 255, 255, 0.4);
+    }
+}
+
+@keyframes flash-color {
+    0% {
+        box-shadow: -10px 10px 20px rgb(0, 247, 255),
+            10px -10px 20px #FC5185;
+    }
+
+    50% {
+        box-shadow: -10px 10px 20px #FC5185,
+            10px -10px 20px rgb(0, 247, 255);
+    }
+}
+
+
+
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #fff;
+    }
+
+    50% {
+        text-shadow: 0 0 20px #f9004b;
+    }
+
+    100% {
+        text-shadow: 0 0 5px #fff;
+    }
+}
+
+
+@keyframes loop {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1020px) {
+    #container_body3 {
+        padding: 10rem 0rem 10rem 0rem;
+    }
+
+    .block2_1 {
+        width: 90%;
+    }
+
+    .straters_image {
+        width: 5rem;
+        margin-right: 1rem;
+        border-radius: 7px;
+    }
+
+    .straters_name {
+        border: 1px solid gray;
+        padding: 0.3rem 2rem;
+        border-radius: 7px;
+    }
+
+    #section3 {
+        padding: 2rem 1rem 1rem 2rem;
+    }
+}
+
+@media (max-width: 960px) {
+    #original {
+        display: none;
+    }
+    #duplicated {
+        display: block;
+        background-color: rgb(18, 18, 19);
+    }
+    #section4_block1, #section4_block3 {
+        display: inline-block;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 910px) {
+    #quote4 {
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {
+    #navigation {
+        display: none;
+    }
+
+    #menu {
+        display: inline-block;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        margin-top: 1rem;
+    }
+
+    #container_body3 {
+        padding: 5rem 2rem 10rem 2rem;
+    }
+
+    #flavor_image {
+        width: 25rem;
+    }
+
+    #block2_headline {
+        font-size: 1.5rem;
+    }
+
+    #block2_quoteline {
+        font-size: 0.5rem;
+    }
+
+    #block2_button {
+        margin-top: 3rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 630px) {
+    .straters_image {
+        width: 5rem;
+        margin-right: 0.5rem;
+    }
+
+    .straters_name {
+        border: 1px solid gray;
+        padding: 0.2rem 1rem;
+    }
+
+    .content {
+        margin: 0rem;
+    }
+
+    #section2 {
+        padding: 5rem 0rem 2rem 0rem;
+    }
+
+    .content_title {
+        font-size: 1rem;
+    }
+
+    #section3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        justify-content: space-between;
+        padding: 0 0rem;
+    }
+
+    #title {
+        font-size: 1rem;
+    }
+
+    #logo {
+        width: 3rem;
+        border-radius: 50%;
+    }
+
+    #quote {
+        display: inline-block;
+        font-size: 0.2rem;
+        background: linear-gradient(to right, red, blue);
+        color: transparent;
+        -webkit-background-clip: text;
+        margin: 0rem;
+    }
+
+    #container_body {
+        text-align: center;
+        padding: 5rem 0 0 0;
+    }
+
+    #item_image {
+        width: 10rem;
+        border-radius: 30px 15px 30px 10px;
+        box-shadow: -5px 5px 20px rgb(255, 31, 124);
+    }
+}
+
+@media (max-width: 480px) {
+    #section4_block2 {
+        padding: 1rem 1rem;;
+    }
+}
+
+@media (max-width: 450px) {
+    #flavor_image {
+        width: 18rem;
+    }
+
+    #container_body3 {
+        row-gap: 3rem;
+    }
+
+    #title_body {
+        font-size: 2rem;
+    }
+
+    #border_bottom1 {
+        width: 90%;
+    }
+
+    #section3_container {
+        padding: 0rem 2rem;
+    }
+
+    .section3_container1 {
+        width: 10rem;
+    }
+
+    .strengths_images {
+        width: 3rem;
+    }
+}
+
+@media (max-width: 300px) {
+    #flavor_image {
+        width: 15rem;
+    }
+}
