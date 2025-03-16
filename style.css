@@ -7,6 +7,10 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0 5rem;
+    position: fixed;
+    width: 94%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 #logo {
@@ -61,7 +65,7 @@ body {
 
 #anchor {
     text-decoration: none;
-    color: gray;
+    color: rgb(64, 64, 64);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 4rem 1rem 1rem 1rem;
 }
@@ -393,6 +397,7 @@ body {
     font-family: Gabriola;
     text-shadow: 4px 4px 4px #aaa;
     background-color: rgb(34, 34, 35);
+    background-image: url('https://wallpapercave.com/wp/wp2864012.gif');
 }
 
 #section3_container {
@@ -447,7 +452,6 @@ body {
     column-gap: 5rem;
     row-gap: 2rem;
     padding: 5rem;
-    background-image: url('https://wallpapercave.com/wp/wp2864012.gif');
 }
 
 #section4_block1,
@@ -467,11 +471,18 @@ body {
 
 #section4 #section4_block1 a,
 #section4_block3 a {
-    color: rgb(255, 255, 255);
+    color: #FC5185;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 700;
     font-size: 0.8rem;
+}
+
+#section4 #section4_block1 a:hover,
+#section4_block3 a:hover {
+    padding: 1rem 0rem;
+    border-bottom: 5px double gray;
+    transition: all 0.5s ease-in-out;
 }
 
 #logo1 {
@@ -498,7 +509,7 @@ body {
 }
 
 #offers {
-    color: white;
+    color: #FC5185;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -508,11 +519,17 @@ body {
 }
 
 #input {
-    background-color: white;
+    background-color: rgb(221, 213, 213);
     padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
 }
 #subscribe {
     padding: 0.5rem;
+    border: none;
+    background-color: #ff004c;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 
@@ -644,13 +661,12 @@ body {
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
     #original {
         display: none;
     }
     #duplicated {
         display: block;
-        background-color: rgb(18, 18, 19);
     }
     #section4_block1, #section4_block3 {
         display: inline-block;
@@ -665,6 +681,13 @@ body {
 }
 
 @media (max-width: 720px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5rem;
+        position: fixed;
+        width: 84%;
+    }
     #navigation {
         display: none;
     }
@@ -804,3 +827,4 @@ body {
         width: 15rem;
     }
 }
+  
